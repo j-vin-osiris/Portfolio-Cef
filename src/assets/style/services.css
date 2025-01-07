@@ -1,0 +1,13 @@
+.border-services {
+  width: 40%;
+  margin: 30px auto 50px;
+}
+
+.icon {
+  color: #007bff;
+}
+
+.services-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
