@@ -1,25 +1,36 @@
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import MentionsLegales from "./pages/Mentions Legales";
 
-import './App.css';
+import HeaderNav from './components/Header';
+import Footer from "./components/Footer";
+import './assets/style/style.css';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     <HeaderNav/>
+     <Routes> 
+          <Route path="/" element={<Home />}>Home</Route>
+          <Route path="/Services" element={<Services />}>Services</Route>
+          <Route path="/Portfolio" element={<Portfolio />}>Portfolio</Route>
+          <Route path="/Contact" element={<Contact />}>Contact</Route>
+          <Route path="/Mentions Legales" element={<MentionsLegales />}>MentionsLegales</Route>
+          
+      </Routes>
+      <Footer/>
+      
+    
+     </div> 
+     );
 }
 
-export default App;
+
+export default App
