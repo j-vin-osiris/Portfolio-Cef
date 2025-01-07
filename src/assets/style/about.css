@@ -1,0 +1,13 @@
+.about-titre {
+  font-weight: bold;
+}
+
+.about-border {
+  width: 100%;
+  margin: 10px auto 50px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
