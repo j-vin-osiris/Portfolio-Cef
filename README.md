@@ -32,3 +32,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+# Installation de la bibliotheque BOOTSTRAP
+
+The best way to consume React-Bootstrap is via the npm package which you can install with npm (or yarn if you prefer).
+
+If you plan on customizing the Bootstrap Sass files, or don't want to use a CDN for the stylesheet, it may be helpful to install vanilla Bootstrap as well.
+
+#### `npm install react-bootstrap bootstrap`
