@@ -1,0 +1,32 @@
+.border-portfolio {
+  width: 40%;
+  margin: 30px auto 50px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0.093);
+}
+
+.portfolio-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-portfolio {
+  width: 30%;
+}
+
+.btn-portfolio:hover {
+  background-color: #007bff33;
+}
