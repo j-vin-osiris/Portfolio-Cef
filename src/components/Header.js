@@ -9,7 +9,11 @@ const HeaderNav = () => {
       <nav className="navbar navbar-expand-lg navbar-dark position-sticky bg-dark">
         <div className="container-fluid">
           {/* Ajout du logo textuel */}
-          <a className="navbar-brand text-light text-uppercase">John Doe</a>
+          <a className="navbar-brand text-light text-uppercase">
+            <NavLink to="/" className="nav-link">
+              John Doe
+            </NavLink>
+          </a>
 
           {/* ajout du burger menu */}
           <button
