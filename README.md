@@ -40,3 +40,6 @@ The best way to consume React-Bootstrap is via the npm package which you can ins
 If you plan on customizing the Bootstrap Sass files, or don't want to use a CDN for the stylesheet, it may be helpful to install vanilla Bootstrap as well.
 
 #### `npm install react-bootstrap bootstrap`
+
+# Le Projet 
+Réaliser le site internet personnel de John Doe, un futur développeur web en utilisant REACT.JS ainsi que le framework BOOTSTRAP. Le site devra suivre un cahier des charges pré-établis. Il doit être "responsive design", travaillé pour le SEO et validé au w3c. 
