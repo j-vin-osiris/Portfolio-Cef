@@ -1,0 +1,11 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* weight de 600 selon les instructions du devoir pour les titres  */
+h1,
+h2,
+h3 strong {
+  font-weight: 600;
+}

@@ -42,4 +42,7 @@ If you plan on customizing the Bootstrap Sass files, or don't want to use a CDN 
 #### `npm install react-bootstrap bootstrap`
 
 # Le Projet 
-Réaliser le site internet personnel de John Doe, un futur développeur web en utilisant REACT.JS ainsi que le framework BOOTSTRAP. Le site devra suivre un cahier des charges pré-établis. Il doit être "responsive design", travaillé pour le SEO et validé au w3c. 
+Réaliser le site internet personnel de John Doe, un futur développeur web en utilisant REACT.JS ainsi que le framework BOOTSTRAP. Le site devra suivre un cahier des charges pré-établis. Il doit être "responsive design", travaillé pour le SEO et validé au w3c. Du style css devra être ajouté pour certains effets graphiques.
+L'utilisation de GITUHUB permetra un suivi régulié de l'avancée du projet. 
+
+
