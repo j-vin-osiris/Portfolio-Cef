@@ -47,3 +47,15 @@ L'utilisation de GITUHUB permetra un suivi régulié de l'avancée du projet.
 
 Le HEADER et le FOOTER sont présents sur chaque page.
 
+## Ajouts de component
+
+* REACT ROUTER DOM : permet de déclarer les routes en amont et génére l'affichage
+#### `npm installer react-router-dom`
+
+* AXIOS : client de requête. Utilisé pour obtenir les données de l'API. 
+
+#### `npm install axios`
+
+* REACT HELMET: React Helmet est une bibliothèque populaire pour gérer les balises HTML <"head"> dans les applications React.
+
+#### `npm install --save react-helmet`
